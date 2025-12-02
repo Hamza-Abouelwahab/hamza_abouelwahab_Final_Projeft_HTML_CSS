@@ -1,0 +1,40 @@
+// * hero section
+
+.bg-img{
+    background-image: url(../../../../public/images/hero-carousel/hero-carousel-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img-2{
+    background-image: url(../../../../public/images/hero-carousel/hero-carousel-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img-3{
+    background-image: url(../../../../public/images/hero-carousel/hero-carousel-3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.hero-section{
+    .type{
+        width: 100%;
+        font-size: small;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        gap: 1vw; 
+        div{
+            padding: 0.1vh 3vw 0.1vh 3vw ;
+        }
+    }
+}
+
+.controle{
+    background-color: red;
+    width: 5%;
+
+}

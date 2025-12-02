@@ -1,0 +1,26 @@
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables"; 
+
+
+$orange : #ffb03b;
+$lightorange: #fff7eb;
+$lightdark: #1e160d;
+
+
+    $colors : (
+        "orange" : $orange ,
+        "lightorange" : $lightorange ,
+        "lightdark" : $lightdark ,
+    );
+
+    $theme-colors : map-merge($theme-colors, $colors);
+
+    $spacer: 10px ;
+    @for $i from 0 to 21 {
+        $spacers: map-merge( $spacers , ( $i: $spacer * $i ));
+    };
+
+
+
+
