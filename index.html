@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="text-white position-fixed w-100 z-1">
-        <div class="top-side d-flex justify-content-between align-items-center  ps-15 pe-15  pt-1 pb-1">
+        <div class="top-side d-flex justify-content-between align-items-center  ps-10 pe-10  pt-1 pb-1">
             <div class="d-flex align-items-center gap-5">
             <div class="d-flex gap-1">
                 <i class="bi bi-phone text-orange"></i>
@@ -21,8 +21,8 @@
             </div>
             <button class="bg-orange text-white  pt-0 pb-0 ps-2 pe-2 border border-0 rounded-5 ">Booka a table</button>
         </div>
-        <div class="d-flex align-items-center justify-content-between pt-1 pb-1 ps-15 pe-15">
-            <p class="m-0">delicious</p>
+        <div class="d-flex  align-items-center justify-content-between pt-1 pb-1 ps-10 pe-10">
+            <h2 class=" m-0 fw-satisfy text-capitalize">delicious</h2>
             <nav class="text-capitalize d-flex gap-1">
                 <a href="#">home</a>
                 <a href="#">about</a>
@@ -62,8 +62,8 @@
                 <div class="bg-img  carousel-item active" data-bs-interval="10000">
                     <div class="mb-14 p-0 carousel-caption">
                         <div class="type d-flex flex-column  gap-2">
-                            <h4 class="m-0"><span class="text-orange">Delicious</span> Restaurant</h4>
-                            <p class="m-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h1 class="m-0 fw-bold"><span class="text-orange">Delicious</span> Restaurant</h1>
+                            <p class="m-0 text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <div class="button">
                                 <div class=" btn btn-transparent border border-2 text-white text-capitalize border-orange rounded-5">our menu</div>
                                 <div class="btn btn-transparent border border-2 text-white border-orange rounded-5">Book a table</div>
@@ -75,8 +75,8 @@
                 <div class="bg-img-2 carousel-item" data-bs-interval="2000"> 
                     <div class="mb-14 p-0 carousel-caption" >
                         <div class="type d-flex flex-column gap-2">
-                            <h4 class="m-0">Temporibus autem quibusdam</h4>
-                            <p class="text-start m-0">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                            <h1 class="m-0 fw-bold">At vero eos et accusamus</h1>
+                            <p class="text-start m-0">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
                             <div class="button">
                                 <div class=" btn btn-transparent border border-2 text-white text-capitalize border-orange rounded-5">our menu</div>
                                 <div class=" btn btn-transparent border border-2 text-white border-orange rounded-5">Book a table</div>
@@ -88,7 +88,7 @@
                 <div class="bg-img-3 carousel-item"> 
                     <div class="mb-15 p-0 carousel-caption">
                         <div class="type d-flex flex-column gap-2">
-                            <h4 class="m-0">Temporibus autem quibusdam</h4>
+                            <h1 class="m-0 fw-bold">Temporibus autem quibusdam</h1>
                             <p class="text-start m-0">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
                             <div class="button">
                                 <div class=" btn btn-transparent border border-2 text-white text-capitalize border-orange rounded-5">our menu</div>
@@ -107,7 +107,86 @@
             </button>
         </div>
     </section>
+    <!-- ? secound section -->
+    <section class="secound-section d-flex gap-2 bg-lightorange ps-10 pe-10  pt-8 pb-8">
+        <div class="left">
+            
+            <img src="./public/images/about.jpg" alt="">
+            <input class="check d-none" type="checkbox" id="play">
+            <div class="phot">
+                <label for="play" class="play-btn"><i class="bi bi-play-fill"></i></label>
+            </div>
+            <!-- ^ carousel -->
+        <div id="side2" class="hidden  carousel slide ">
 
+            <div class="carousel-inner">
+                <!-- * vedio -->
+                <div class="carousel-item active">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7f98aduVJ8?si=KiJZIQ7lT-fAf3u8&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- * img 1 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-1.jpg" class="w-100" alt="">
+                </div>
+                <!-- * img 2 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-2.jpg" class="w-100" alt="">
+                </div>
+                <!-- * img 3 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-3.jpg" class="w-100" alt="">
+                </div>
+                <!-- * img 4 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-4.jpg" class="w-100" alt="">
+                </div>
+                <!-- * img 5 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-5.jpg" class="w-100" alt="">
+                </div>
+                <!-- * img 6 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-6.jpg" class="w-100" alt="">
+                </div>
+                <!-- * img 7 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-7.jpg" class="w-100" alt="">
+                </div>
+                <!-- * img 8 -->
+                <div class="carousel-item">
+                    <img src="./public/images/gallery/gallery-8.jpg" class="w-100" alt="">
+                </div>
+            </div>
+
+            <a href="#side2" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-secondary rounded-circle p-3"></span>
+            </a>
+
+            <a href="#side2" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-secondary rounded-circle p-3"></span>
+            </a> 
+
+        </div>
+        </div>  <!-- ~ end of left-->
+
+        <div class="right d-flex flex-column gap-1">
+            <h3 class="m-0">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <span class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            <div class="d-flex gap-1">
+                <i class="bi bi-check2-all text-orange"></i>
+                <p class="m-0">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="d-flex gap-1">
+                <i class="bi bi-check2-all text-orange"></i>
+                <p class="m-0">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            </div>
+            <div class="d-flex gap-1">
+                <i class="bi bi-check2-all text-orange"></i>
+                <p class="m-0">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <p class="m-0 pt-1">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+        </div> <!-- ~ end of right-->
+    </section>
 
 
 

@@ -18091,9 +18091,37 @@ textarea.form-control-lg {
   padding: 0;
 }
 
+@font-face {
+  font-family: "hmizo";
+  src: url("../../../../public/fonts/Satisfy/Satisfy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins" sans-serif;
+  src: url(../../../../public/fonts/Poppins/Poppins-Light.ttf), url(../../../../public/fonts/Poppins/Poppins-Light.woff), url(../../../../public/fonts/Poppins/Poppins-Light.woff2);
+}
+@font-face {
+  font-family: "roboto" sans-serif;
+  src: url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf), url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.woff), url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.woff2);
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .logo {
+  font-family: "hmizo";
+}
+
+p {
+  font-family: "roboto";
+}
+
+.top-side {
+  font-size: 14px;
+}
+
 nav a {
   text-decoration: none;
   color: white;
+  font-family: "poppins";
+  font-size: 14px;
 }
 nav a:hover {
   color: #ffb03b;
@@ -18135,6 +18163,68 @@ nav a:hover {
 
 .controle {
   width: 5%;
+  height: 50%;
+  display: flex;
+  align-items: end;
+}
+
+.secound-section .left {
+  height: fit-content;
+  position: relative;
+}
+.secound-section img {
+  width: 100%;
+  height: auto;
+}
+.secound-section .phot {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+.secound-section .play-btn {
+  width: 50px;
+  height: 50px;
+  background: #ffb03b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.secound-section .play-btn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffb03b;
+  animation: pulse 1.5s infinite ease-out;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+.secound-section .hidden {
+  display: none;
+}
+.secound-section #play:checked ~ .hidden {
+  display: block;
+}
+.secound-section .right {
+  width: 100%;
+  font-size: 0.9rem;
+}
+.secound-section .right h3, .secound-section .right .h3 {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

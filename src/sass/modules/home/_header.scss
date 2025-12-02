@@ -1,12 +1,49 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+@font-face {
+    font-family: "hmizo" ;
+        src: url("../../../../public/fonts/Satisfy/Satisfy-Regular.ttf") format("truetype") ; 
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+            font-family: "poppins" sans-serif;
+        src: url(../../../../public/fonts/Poppins/Poppins-Light.ttf),
+                url(../../../../public/fonts/Poppins/Poppins-Light.woff),
+                url(../../../../public/fonts/Poppins/Poppins-Light.woff2);
+}
+@font-face {
+    font-family: "roboto" sans-serif;
+        src: url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf),
+                url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.woff),
+                url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.woff2);
+}
+h1,h2,h3,h4,h5,h6, .logo{
+    font-family: "hmizo"  ;
+    // background-color: red;
+    
+}
+p{
+    font-family: "roboto" ;
+}
+
+.top-side{
+    // background-color: red;
+    font-size: 14px;
 }
 
 nav{
+    // border: solid;
+    // width: 100%;
     a{
         text-decoration: none;
         color: white;
+        font-family: "poppins";
+        font-size: 14px;
+        
     }
     a{
     &:hover{
