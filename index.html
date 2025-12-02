@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="text-white position-fixed w-100 z-1">
-        <div class="top-side bg-black d-flex justify-content-between align-items-center  ps-15 pe-15  pt-1 pb-1">
+        <div class="top-side d-flex justify-content-between align-items-center  ps-15 pe-15  pt-1 pb-1">
             <div class="d-flex align-items-center gap-5">
             <div class="d-flex gap-1">
                 <i class="bi bi-phone text-orange"></i>
@@ -21,7 +21,7 @@
             </div>
             <button class="bg-orange text-white  pt-0 pb-0 ps-2 pe-2 border border-0 rounded-5 ">Booka a table</button>
         </div>
-        <div class="bg-dark d-flex align-items-center justify-content-between pt-1 pb-1 ps-15 pe-15">
+        <div class="d-flex align-items-center justify-content-between pt-1 pb-1 ps-15 pe-15">
             <p class="m-0">delicious</p>
             <nav class="text-capitalize d-flex gap-1">
                 <a href="#">home</a>
@@ -46,7 +46,67 @@
     </header>
 
     <!-- ? hero section -->
-
+    <section class="hero-section" >
+    <div id="side" class=" carousel slide ">
+            <!-- slide  -->
+            <div class="carousel-indicators">
+                <a data-bs-target="#side" data-bs-slide-to="0" class="active"></a>
+                <a data-bs-target="#side" data-bs-slide-to="1"></a>
+                <a data-bs-target="#side" data-bs-slide-to="2"></a>
+            </div>
+            <div class="carousel-caption ">
+            </div>
+            <!-- background images  -->
+            <div class="carousel-inner" data-bs-ride="carousel">
+                <!-- ! first image -->
+                <div class="bg-img  carousel-item active" data-bs-interval="10000">
+                    <div class="mb-14 p-0 carousel-caption">
+                        <div class="type d-flex flex-column  gap-2">
+                            <h4 class="m-0"><span class="text-orange">Delicious</span> Restaurant</h4>
+                            <p class="m-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="button">
+                                <div class=" btn btn-transparent border border-2 text-white text-capitalize border-orange rounded-5">our menu</div>
+                                <div class="btn btn-transparent border border-2 text-white border-orange rounded-5">Book a table</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+                <!-- ! secound image -->
+                <div class="bg-img-2 carousel-item" data-bs-interval="2000"> 
+                    <div class="mb-14 p-0 carousel-caption" >
+                        <div class="type d-flex flex-column gap-2">
+                            <h4 class="m-0">Temporibus autem quibusdam</h4>
+                            <p class="text-start m-0">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                            <div class="button">
+                                <div class=" btn btn-transparent border border-2 text-white text-capitalize border-orange rounded-5">our menu</div>
+                                <div class=" btn btn-transparent border border-2 text-white border-orange rounded-5">Book a table</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ! three image -->
+                <div class="bg-img-3 carousel-item"> 
+                    <div class="mb-15 p-0 carousel-caption">
+                        <div class="type d-flex flex-column gap-2">
+                            <h4 class="m-0">Temporibus autem quibusdam</h4>
+                            <p class="text-start m-0">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                            <div class="button">
+                                <div class=" btn btn-transparent border border-2 text-white text-capitalize border-orange rounded-5">our menu</div>
+                                <div class=" btn btn-transparent border border-2 text-white border-orange rounded-5">Book a table</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- icons prev and next of carousel -->
+            <button class="controle carousel-control-next " data-bs-target="#side" data-bs-slide="next">
+                <span class="carousel-control-next-icon "></span>
+            </button>
+            <button class="controle carousel-control-prev " data-bs-target="#side" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+        </div>
+    </section>
 
 
 
