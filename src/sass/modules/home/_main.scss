@@ -289,6 +289,23 @@
             gap: 8vw;
         }
     }
+    // ! section-menu
+    .section-menu{
+        .cart{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-inline: 5vw;
+        }
+        .boxx{
+            gap:2vw !important;
+            .type{
+                line-height: 20px;
+                .child{
+                    font-size: 25px !important;
+                }
+            }
+        }
+    }
 }
 @media  (max-width:480px){
         // ! section about
@@ -306,4 +323,29 @@
             
         }
 }
+            // ! section-menu
+    .section-menu{
+        padding: 5vw 0 0 0 ;
+        .cart{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-inline: 5vw;
+        }
+        .boxx{
+            padding: 0 2vw 0 2vw !important;
+            gap: 3vw !important;
+            img{
+                // width: 15% !important;
+            }
+            .type{
+                line-height: 20px;
+                .child{
+                    padding-top: 3vw;
+                    // font-size: 25px !important;
+                }
+            }
+        }
+    }
+
+
 }

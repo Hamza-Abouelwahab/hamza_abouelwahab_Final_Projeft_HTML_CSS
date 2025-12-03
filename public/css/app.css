@@ -18571,6 +18571,20 @@ nav a:hover {
     flex-direction: column;
     gap: 8vw;
   }
+  .section-menu .cart {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-inline: 5vw;
+  }
+  .section-menu .boxx {
+    gap: 2vw !important;
+  }
+  .section-menu .boxx .type {
+    line-height: 20px;
+  }
+  .section-menu .boxx .type .child {
+    font-size: 25px !important;
+  }
 }
 @media (max-width: 480px) {
   .secound-section {
@@ -18584,6 +18598,24 @@ nav a:hover {
     flex-direction: column;
     gap: 8vw;
     padding: 0 2vw 0 2vw;
+  }
+  .section-menu {
+    padding: 5vw 0 0 0;
+  }
+  .section-menu .cart {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-inline: 5vw;
+  }
+  .section-menu .boxx {
+    padding: 0 2vw 0 2vw !important;
+    gap: 3vw !important;
+  }
+  .section-menu .boxx .type {
+    line-height: 20px;
+  }
+  .section-menu .boxx .type .child {
+    padding-top: 3vw;
   }
 }
 
