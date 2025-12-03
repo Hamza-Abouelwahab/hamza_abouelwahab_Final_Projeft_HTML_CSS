@@ -89,14 +89,14 @@
     opacity: 0;
 }
 }
-.hidden{
-    display: none;
-}
-#play:checked ~ .hidden{
-    display: block;
+// .hidden{
+//     // border: 6px solid;
+//     display: none;
+// }
+// #play:checked ~ .hidden{
+//     display: block;
 
-    
-}
+// }
 #play:checked ~ .play-btn{
     // background-color: green;
 }

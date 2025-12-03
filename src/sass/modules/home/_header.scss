@@ -10,16 +10,16 @@
         font-style: normal;
 }
 @font-face {
-            font-family: "poppins" sans-serif;
-        src: url(../../../../public/fonts/Poppins/Poppins-Light.ttf),
-                url(../../../../public/fonts/Poppins/Poppins-Light.woff),
-                url(../../../../public/fonts/Poppins/Poppins-Light.woff2);
+            font-family: "poppins" ;
+        src:    url("../../../../public/fonts/Poppins/Poppins-Light.ttf"),
+                url("../../../../public/fonts/Poppins/Poppins-Light.woff"),
+                url("../../../../public/fonts/Poppins/Poppins-Light.woff2");
 }
 @font-face {
-    font-family: "roboto" sans-serif;
-        src: url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf),
-                url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.woff),
-                url(../../../../public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.woff2);
+    font-family: "roboto" ;
+        src:    url("../../../../public/fonts/Roboto/static/Roboto-Light.ttf"),
+                url("../../../../public/fonts/Roboto/static/Roboto-Light.woff"),
+                url("../../../../public/fonts/Roboto/static/Roboto-Light.woff2");
 }
 h1,h2,h3,h4,h5,h6, .logo{
     font-family: "hmizo"  ;
@@ -36,8 +36,6 @@ p{
 }
 
 nav{
-    // border: solid;
-    // width: 100%;
     a{
         text-decoration: none;
         color: white;
@@ -50,6 +48,30 @@ nav{
         color: $orange;
     }
     }
+}
+
+    @media (min-width:550px) and (max-width:890px) {
+        nav{
+        position: fixed;
+        top: 40px;
+        left: 20px;
+
+        width: 80%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 8vw 3vw ; 
+        overflow-y: auto;
+        z-index: 9999;
+        a{
+            color: black;
+        }
+        }
+
 }
 
 

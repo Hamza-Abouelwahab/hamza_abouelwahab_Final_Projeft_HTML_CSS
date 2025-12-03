@@ -44,7 +44,8 @@
             </nav>
         </div>
     </header>
-
+    <!-- ! main -->
+    <main>
     <!-- ? hero section -->
     <section class="hero-section" >
     <div id="side" class=" carousel slide ">
@@ -112,14 +113,25 @@
         <div class="left">
             
             <img src="./public/images/about.jpg" alt="">
-            <input class="check d-none" type="checkbox" id="play">
+
+
+                    <!-- Button trigger modal -->
+<a  data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <input class="check d-none" type="checkbox" id="play">
             <div class="phot">
                 <label for="play" class="play-btn"><i class="bi bi-play-fill"></i></label>
             </div>
-            <!-- ^ carousel -->
-        <div id="side2" class="hidden  carousel slide ">
+</a>
 
-            <div class="carousel-inner">
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content ">
+
+      <div class="modal-body p-0 m-0 border border-0">
+                <div id="side2" class="hidden  carousel slide ">
+
+            <div class="test carousel-inner">
                 <!-- * vedio -->
                 <div class="carousel-item active">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7f98aduVJ8?si=KiJZIQ7lT-fAf3u8&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -159,14 +171,18 @@
             </div>
 
             <a href="#side2" class="carousel-control-next" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-secondary rounded-circle p-3"></span>
+                <span class="carousel-control-next-icon text-bg-dark"></span>
             </a>
 
             <a href="#side2" class="carousel-control-prev" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-secondary rounded-circle p-3"></span>
+                <span class="carousel-control-prev-icon text-bg-dark"></span>
             </a> 
 
         </div>
+      </div>
+    </div>
+  </div>
+</div>
         </div>  <!-- ~ end of left-->
 
         <div class="right d-flex flex-column gap-1">
@@ -188,7 +204,7 @@
         </div> <!-- ~ end of right-->
     </section>
 
-
+    </main>
 
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
