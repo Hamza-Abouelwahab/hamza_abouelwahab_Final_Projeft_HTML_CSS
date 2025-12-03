@@ -282,6 +282,13 @@
     .secound-section{
         flex-direction: column !important;
     }
+    // ! our-restaurant
+    .our-restaurant{
+        .contant{
+            flex-direction: column;
+            gap: 8vw;
+        }
+    }
 }
 @media  (max-width:480px){
         // ! section about
@@ -289,4 +296,14 @@
         flex-direction: column !important;
         padding-inline: 2vw !important;
     }
+        // ! our-restaurant
+    .our-restaurant{
+        padding: 10vw 0vw 0vw 0 !important;
+        .contant{
+            flex-direction: column;
+            gap: 8vw;
+            padding: 0 2vw 0 2vw;
+            
+        }
+}
 }

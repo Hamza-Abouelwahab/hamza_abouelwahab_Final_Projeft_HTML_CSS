@@ -18567,11 +18567,23 @@ nav a:hover {
   .secound-section {
     flex-direction: column !important;
   }
+  .our-restaurant .contant {
+    flex-direction: column;
+    gap: 8vw;
+  }
 }
 @media (max-width: 480px) {
   .secound-section {
     flex-direction: column !important;
     padding-inline: 2vw !important;
+  }
+  .our-restaurant {
+    padding: 10vw 0vw 0vw 0 !important;
+  }
+  .our-restaurant .contant {
+    flex-direction: column;
+    gap: 8vw;
+    padding: 0 2vw 0 2vw;
   }
 }
 
