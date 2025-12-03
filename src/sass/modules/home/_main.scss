@@ -26,9 +26,12 @@
     .button{
         display: flex;
         justify-content: center;
-        gap: 1vw; 
-        div{
+        gap: 1vw;
+        div{ 
             padding: 0.1vh 3vw 0.1vh 3vw ;
+            &:hover{
+            background-color: $orange;
+        }
         }
     }
 }
@@ -145,16 +148,19 @@
             color: $orange;
         }
     }
-    nav{
+    .menu-item{
         display: flex;
-        gap: 3vw;
+        gap: 1vw;
         padding-bottom: 2vw;
         text-transform: capitalize;
-        
-        a{  
+        input{
+            visibility: hidden;
+        }
+        label{  
             font-family: "hmizo";
             cursor: pointer;
             color: black;
+        
         &:hover{
         color: $orange;
             }
@@ -208,6 +214,7 @@
             }
         }
     }
+    // ! side 2
 .side-spacials{
     .title{
         display: flex;
@@ -257,8 +264,12 @@
         }
     }
 }
-
-
-
+}
+// ! section events
+.section-events{
+    background-image: url(../../../../public/images/events-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 

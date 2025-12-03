@@ -9,7 +9,7 @@
 <body>
     <header class="text-white position-fixed w-100 z-1">
         <div class="top-side d-flex justify-content-between align-items-center  ps-10 pe-10  pt-1 pb-1">
-            <div class="d-flex align-items-center gap-5">
+            <div class="d-sm-none d-flex align-items-center gap-5">
             <div class="d-flex gap-1">
                 <i class="bi bi-phone text-orange"></i>
                 <p class="m-0">+1 5589 55488 55</p>
@@ -23,7 +23,10 @@
         </div>
         <div class="bottom-side d-flex align-items-center justify-content-between pt-1 pb-1 ps-10 pe-10">
             <h2 class=" m-0 fw-satisfy text-capitalize">delicious</h2>
+            <input class="d-none" type="checkbox" id="check">
+            <label for="check"><i class="text-white bi bi-list d-lg-none"></i></label>
             <nav class="text-capitalize d-flex gap-1">
+                <label for="check"><i class="bi bi-x  d-lg-none"></i></label>
                 <a href="#">home</a>
                 <a href="#">about</a>
                 <a href="#">menu</a>
@@ -226,13 +229,19 @@
     <section class="section-menu">
         <p class="first-p">menu</p>
         <h2>Check Our Tasty <span>Menu</span></h2>
-        <div class="menu">
-            <nav>
-                <a href="">all</a>
-                <a href="">startes</a>
-                <a href="">salads</a>
-                <a href="">spicialty</a>
-            </nav>
+        <div class="menu-item">
+
+            <input type="radio" id="all">
+            <label for="all">all</label>
+
+            <input type="radio" id="startes">
+            <label for="startes">startes</label>
+
+            <input type="radio" id="salads">
+            <label for="salads">salads</label>
+
+            <input type="radio" id="spicialty">
+            <label for="spicialty">spicialty</label>
         </div>
         <div class="cart">
             <div class="boxx">
@@ -339,7 +348,10 @@
             </div>
         </div>
     </section>
-
+    <!-- ! section events -->
+    <section class="section-events">
+    
+    </section>
     </main>
 
 

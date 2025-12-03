@@ -18231,12 +18231,16 @@ nav a:hover {
 }
 
 @media (min-width: 550px) and (max-width: 890px) {
+  header .top-side {
+    justify-content: end !important;
+  }
   nav {
     position: fixed;
-    top: 40px;
+    top: 4vh;
+    left: -100vw;
     width: 80%;
     height: 100%;
-    background-color: rgb(238, 12, 12);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -18248,6 +18252,17 @@ nav a:hover {
   }
   nav a {
     color: black;
+  }
+  nav label i {
+    width: 100px;
+    color: black !important;
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #check:checked ~ nav {
+    left: 8vw;
   }
 }
 .bg-img {
@@ -18282,6 +18297,9 @@ nav a:hover {
 }
 .hero-section .button div {
   padding: 0.1vh 3vw 0.1vh 3vw;
+}
+.hero-section .button div:hover {
+  background-color: #ffb03b;
 }
 
 .controle {
@@ -18388,18 +18406,21 @@ nav a:hover {
 .section-menu h2 span, .section-menu .h2 span {
   color: #ffb03b;
 }
-.section-menu nav {
+.section-menu .menu-item {
   display: flex;
-  gap: 3vw;
+  gap: 1vw;
   padding-bottom: 2vw;
   text-transform: capitalize;
 }
-.section-menu nav a {
+.section-menu .menu-item input {
+  visibility: hidden;
+}
+.section-menu .menu-item label {
   font-family: "hmizo";
   cursor: pointer;
   color: black;
 }
-.section-menu nav a:hover {
+.section-menu .menu-item label:hover {
   color: #ffb03b;
 }
 .section-menu .cart {
@@ -18491,6 +18512,13 @@ nav a:hover {
 }
 .section-menu .side-spacials .menu-spacial .img img {
   max-width: 100%;
+}
+
+.section-events {
+  background-image: url(../../../../public/images/events-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

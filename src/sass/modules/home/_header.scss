@@ -59,14 +59,20 @@ nav{
 }
 
     @media (min-width:550px) and (max-width:890px) {
+        header{
+            .top-side{
+            // background-color: red !important;
+            justify-content: end !important;
+            }
+        }
+
         nav{
         position: fixed;
-        top: 40px;
-        // left: 20px;
-
+        top: 4vh;
+        left: -100vw;
         width: 80%;
         height: 100%;
-        background-color: rgb(238, 12, 12);
+        background-color: rgb(255, 255, 255);
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -78,8 +84,21 @@ nav{
         a{
             color: black;
         }
+        label{
+            i{
+                // background-color: red;
+                width: 100px;
+                color: black !important;
+                font-size: 50px;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
         }
-
+        }
+        #check:checked ~ nav {
+            left: 8vw;
+        }
 }
 
 
