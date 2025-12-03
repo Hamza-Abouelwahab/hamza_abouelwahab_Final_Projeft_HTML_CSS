@@ -110,5 +110,32 @@
     }
 }
 
-// ! section three
+// ! section our restaurant
+.our-restaurant{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    .box{
+        background-color: #7877750d !important;
+        width: fit-content;
+        padding: 3vw 2vw;
+        cursor: pointer;
+        span{
+            font-weight: 600;
+            font-size: 25px;
+            color: $orange;
+        }
+        // &:hover{
+        //     color: white !important;
+        // }
+        &:hover{
+            background-color: $orange !important;
+            color: white !important;
+        }
+    }
+
+}
+
+// ! section menu full sass
+
 

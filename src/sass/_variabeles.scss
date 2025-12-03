@@ -6,12 +6,14 @@
 $orange : #ffb03b;
 $lightorange: #fff7eb;
 $lightdark: #1e160d;
+$box:#7877750d;
 
 
     $colors : (
         "orange" : $orange ,
         "lightorange" : $lightorange ,
         "lightdark" : $lightdark ,
+        "box": $box,
     );
 
     $theme-colors : map-merge($theme-colors, $colors);
