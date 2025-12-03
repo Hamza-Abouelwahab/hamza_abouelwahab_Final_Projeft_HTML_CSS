@@ -18541,13 +18541,22 @@ nav a:hover {
   text-decoration: none;
   color: black;
 }
+.section-menu .side-spacials .menu-spacial .nav a:hover {
+  color: #ffb03b;
+}
+.section-menu .side-spacials .menu-spacial .flexx {
+  display: flex;
+  gap: 2vw;
+}
 .section-menu .side-spacials .menu-spacial .type {
   border-left: solid rgba(128, 128, 128, 0.2549019608) 2px;
   padding-left: 2vw;
 }
 .section-menu .side-spacials .menu-spacial .type p {
   width: 100%;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 2vw;
+  padding-top: 1vw;
 }
 .section-menu .side-spacials .menu-spacial .img {
   width: fit-content;
@@ -18585,6 +18594,32 @@ nav a:hover {
   .section-menu .boxx .type .child {
     font-size: 25px !important;
   }
+  .section-menu .menu-spacial {
+    flex-direction: column;
+    padding-inline: 6vw !important;
+  }
+  .section-menu .menu-spacial .nav a {
+    font-size: larger !important;
+  }
+  .section-menu .menu-spacial .flexx {
+    flex-direction: column-reverse;
+  }
+  .section-menu .menu-spacial .type {
+    border-left: none !important;
+    padding-left: 2vw;
+  }
+  .section-menu .menu-spacial .type p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 2.5vw !important;
+    padding-top: 1vw;
+  }
+  .section-menu .menu-spacial .img {
+    width: fit-content;
+  }
+  .section-menu .menu-spacial .img img {
+    max-width: 100%;
+  }
 }
 @media (max-width: 480px) {
   .secound-section {
@@ -18616,6 +18651,33 @@ nav a:hover {
   }
   .section-menu .boxx .type .child {
     padding-top: 3vw;
+  }
+  .section-menu .menu-spacial {
+    flex-direction: column;
+    padding-inline: 8vw !important;
+    padding-top: 4vw !important;
+  }
+  .section-menu .menu-spacial .nav a {
+    font-size: larger !important;
+  }
+  .section-menu .menu-spacial .flexx {
+    flex-direction: column-reverse;
+  }
+  .section-menu .menu-spacial .type {
+    border-left: none !important;
+    padding-left: 2vw;
+  }
+  .section-menu .menu-spacial .type p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 3.5vw !important;
+    padding-top: 1vw;
+  }
+  .section-menu .menu-spacial .img {
+    width: fit-content;
+  }
+  .section-menu .menu-spacial .img img {
+    max-width: 100%;
   }
 }
 

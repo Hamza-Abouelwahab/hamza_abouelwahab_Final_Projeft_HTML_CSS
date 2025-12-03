@@ -244,7 +244,14 @@
             a{
                 text-decoration: none;
                 color: black;
+                &:hover{
+                    color: $orange;
+                }
             }
+        }
+        .flexx{
+            display: flex;
+            gap: 2vw;
         }
         .type{
             // width: 100%;
@@ -252,7 +259,9 @@
             padding-left: 2vw;
             p{
                 width: 100%;
-                font-size: 14px;
+                font-size: 15px;
+                line-height: 2vw;
+                padding-top: 1vw;
             }
         }
         .img{
@@ -305,6 +314,36 @@
                 }
             }
         }
+        // ^ side 2
+            .menu-spacial{
+            flex-direction: column;
+            padding-inline: 6vw !important;
+            .nav{
+                a{
+                    font-size: larger !important;
+                }
+            }
+            .flexx{
+                flex-direction: column-reverse;
+            }
+            .type{
+                border-left: none !important;
+                padding-left: 2vw;
+                p{
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 2.5vw !important;
+                    padding-top: 1vw;
+                }
+            }
+            .img{
+                width:fit-content;
+                img{
+                    max-width: 100%;
+                    
+                }
+            }
+        }
     }
 }
 @media  (max-width:480px){
@@ -345,6 +384,37 @@
                 }
             }
         }
+            // ^ side 2
+        .menu-spacial{
+        flex-direction: column;
+        padding-inline: 8vw !important;
+        padding-top: 4vw !important;
+        .nav{
+            a{
+                font-size: larger !important;
+            }
+        }
+        .flexx{
+            flex-direction: column-reverse ;
+        }
+        .type{
+            border-left: none !important;
+            padding-left: 2vw;
+            p{
+                width: 100%;
+                font-size: 15px;
+                line-height: 3.5vw !important;
+                padding-top: 1vw;
+            }
+        }
+        .img{
+            width:fit-content;
+            img{
+                max-width: 100%;
+                
+            }
+        }
+    }
     }
 
 
