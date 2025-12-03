@@ -47,15 +47,11 @@
     img{
         width: 100%;
         height: auto;
-        
-
-
     }
     .phot{
         position: absolute;
         top: 40%;
         left:45%;
-        
     }
     .play-btn {
     width: 50px;
@@ -89,17 +85,7 @@
     opacity: 0;
 }
 }
-// .hidden{
-//     // border: 6px solid;
-//     display: none;
-// }
-// #play:checked ~ .hidden{
-//     display: block;
 
-// }
-#play:checked ~ .play-btn{
-    // background-color: green;
-}
 
     .right{
         width: 100%;
@@ -143,15 +129,18 @@
     justify-items: center;
     gap: 2vw;
     padding: 2vw 10vw 2vw 10vw;
-    .firt-p{
+    .first-p{
         background-color: $lightorange;
         color: $orange;
         border-radius: 50px;
         padding: 0.5vw 3vw 0.5vw 3vw;
         text-transform: uppercase;
+        text-align: center;
+        margin: 0;
     }
     h2{
         padding-bottom: 2vw;
+        text-transform: capitalize;
         span{
             color: $orange;
         }
@@ -189,7 +178,6 @@
             .type{
                 line-height: 20px;
                 .child{
-                    // background-color: red;
                     font-weight: bold;
                     font-size: 15px;
                     display: flex;
@@ -197,7 +185,7 @@
                     gap: 10px;
                     .top-p{
                         margin: 0;
-                        font-family: "roboto" sans-serif !important;
+                        font-family: "roboto"  !important;
                         cursor: pointer;
                         &:hover{
                             color: $orange;
@@ -220,7 +208,55 @@
             }
         }
     }
-
+.side-spacials{
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+        p{
+            background-color: $lightorange;
+            color: $orange;
+            padding: 0.5vw 4vw;
+            border-radius: 50px;
+        }
+    }
+    .menu-spacial{
+        display: flex;
+        justify-content: space-between;
+        gap: 2vw;
+        width: 100%;
+        padding-top: 2vw;
+        .nav{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5vw;
+            padding-top: 1vw;
+            width: 100%;
+            
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .type{
+            // width: 100%;
+            border-left: solid #80808041 2px;
+            padding-left: 2vw;
+            p{
+                width: 100%;
+                font-size: 14px;
+            }
+        }
+        .img{
+            width:fit-content;
+            img{
+                max-width: 100%;
+                
+            }
+        }
+    }
+}
 
 
 
