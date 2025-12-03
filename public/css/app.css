@@ -18265,6 +18265,48 @@ nav a:hover {
     left: 8vw;
   }
 }
+@media (max-width: 480px) {
+  header .top-side {
+    justify-content: end !important;
+    padding: 0 !important;
+  }
+  header .top-side .info {
+    display: none !important;
+  }
+  header .bottom-side {
+    padding: 0 5vw 0 3vw !important;
+  }
+  nav {
+    position: fixed;
+    top: 4vh;
+    left: -100vw;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8vw 3vw;
+    overflow-y: auto;
+    z-index: 9999;
+  }
+  nav a {
+    color: black;
+  }
+  nav label i {
+    width: 100px;
+    color: black !important;
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #check:checked ~ nav {
+    left: 10vw;
+  }
+}
 .bg-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../../../public/images/hero-carousel/hero-carousel-1.jpg);
   height: 100vh;

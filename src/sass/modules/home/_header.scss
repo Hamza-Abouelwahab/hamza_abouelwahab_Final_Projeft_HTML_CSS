@@ -100,7 +100,54 @@ nav{
             left: 8vw;
         }
 }
+@media (max-width:480px) {
+        header{            
+            .top-side{
+            justify-content: end !important;
+            padding: 0 !important;
+            .info{
+                display: none !important;
+            }
+            }
+            .bottom-side{
+                padding: 0 5vw 0 3vw !important;
+            }
+        }
 
+        nav{
+        position: fixed;
+        top: 4vh;
+        left: -100vw;
+        width: 80%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 8vw 3vw ; 
+        overflow-y: auto;
+        z-index: 9999;
+        a{
+            color: black;
+        }
+        label{
+            i{
+                // background-color: red;
+                width: 100px;
+                color: black !important;
+                font-size: 50px;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+        }
+        #check:checked ~ nav {
+            left: 10vw;
+        }
+    }
 
 
 
