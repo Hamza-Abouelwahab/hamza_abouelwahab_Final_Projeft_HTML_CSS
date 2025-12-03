@@ -18563,4 +18563,16 @@ nav a:hover {
   height: 100%;
 }
 
+@media (min-width: 550px) and (max-width: 890px) {
+  .secound-section {
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 480px) {
+  .secound-section {
+    flex-direction: column !important;
+    padding-inline: 2vw !important;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

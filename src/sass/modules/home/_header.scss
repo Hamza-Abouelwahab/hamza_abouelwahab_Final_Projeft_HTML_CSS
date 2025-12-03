@@ -57,7 +57,7 @@ nav{
     }
     }
 }
-
+// ! tablet
     @media (min-width:550px) and (max-width:890px) {
         header{
             .top-side{
@@ -100,6 +100,8 @@ nav{
             left: 8vw;
         }
 }
+
+// ! mobile
 @media (max-width:480px) {
         header{            
             .top-side{
