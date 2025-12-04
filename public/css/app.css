@@ -18901,18 +18901,6 @@ nav a:hover {
 .booka .left img {
   width: 100%;
 }
-.booka .right form {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1vw;
-  width: 100%;
-  padding-top: 5vw;
-  padding-bottom: 2vw;
-}
-.booka .right form input {
-  padding: 0.5vw 1vw 0.5vw 1vw;
-}
-
 .section-gallery .gallery-photos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
