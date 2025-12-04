@@ -18929,6 +18929,22 @@ nav a:hover {
   transform: scale(1.1);
 }
 
+.right-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1vw;
+  width: 100%;
+  padding: 2vw;
+}
+.right-contact form {
+  display: flex;
+  gap: 1vw;
+}
+.right-contact form input {
+  width: 100%;
+  padding: 1vh 2vw;
+}
+
 @media (min-width: 550px) and (max-width: 890px) {
   .secound-section {
     flex-direction: column !important;
