@@ -445,9 +445,9 @@
             <p class="text-uppercase badge bg-lightorange text-orange pt-1 pb-1 pe-3 ps-3 rounded-5 fs-5">booka a table</p>
             <h2>booka a <span class="text-orange"> table </span></h2>
             </div>
-            <div class="reservation w-100 h-100 px-10 d-flex align-items-center">
+            <div class="reservation w-100 h-100 px-10 d-flex align-items-center bg-booka">
                 <div class=""><img class="w-100 h-100" src="./public/images/reservation.jpg" alt=""></div>
-                <div class="form d-flex flex-column gap-4 w-100 px-2 bg-booka ">
+                <div class="form d-flex flex-column gap-4 w-100 px-2  ">
                     <form action="" class="w-100 d-flex gap-4">
                         <input class="px-3 py-2 w-100" type="text" placeholder="your name">
                         <input class="px-3 py-2 w-100" type="email" placeholder="your emial">
@@ -539,7 +539,7 @@
         </div>
         </section>
         <!-- ! section contact -->
-        <section class="section-contact pt-6">
+        <section class="section-contact py-6 ">
         <div class="d-flex flex-column gap-1 align-items-center">
             <p class="text-uppercase badge bg-lightorange text-orange pt-1 pb-1 pe-3 ps-3 rounded-5 fs-5">contact</p>
             <h2>check our <span class="text-orange"> contact </span></h2>
@@ -580,101 +580,56 @@
                 
                     <div><input class="w-100 py-1 px-2 "  type="text" placeholder="subject"></div>
                     <div><textarea name="" id="" class="w-100 px-2 py-1 " cols="30" rows="9" placeholder="message"></textarea></div>
-                    <div class=" d-flex flex-column justify-content-center align-items-center  "><button type="submit" class="text-capitalize px-0 py-2 border border-0 w-25 rounded-2 bg-orange" >send message</button></div> 
+                    <div class=" d-flex flex-column justify-content-center align-items-center  "><button type="submit" class="text-capitalize text-white fs-5 px-0 py-2 border border-0 w-25 rounded-2 bg-orange" >send message</button></div> 
             </div>
         </div>
         </section>
     </main>
     <!-- * footer -->
-    <footer class="site-footer py-5 bg-black">
-    <div class="container">
-      <div class="row text-light">
-
-        <div class="col-md-4 mb-4">
-          <div class="d-flex align-items-start">
-            <i class="bi bi-geo-alt-fill text-orange me-2" ></i>
-            <div>
-              <div class="footer-heading"><h6>Address</h6></div>
-              <div>
-                A108 Adam Street<br>
-                New York, NY 535022
-              </div>
+    <footer class="bg-footer text-white px-10" >
+        <div class="header-footer d-flex align-items-center justify-content-between py-5">
+            <div class="d-flex flex-column gap-1">
+            <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-geo-alt fs-2 text-orange"></i>
+                <h3 class="m-0 fw-bold">Addres</h3>
             </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4 mb-4">
-          <div class="d-flex align-items-start">
-            <i class="bi bi-telephone-fill text-orange me-2" style="font-size:18px;color:var(--accent);"></i>
-            <div>
-              <div class="footer-heading"><h6>Contact</h6></div>
-              <div>
-                <div>Phone: +1 5589 55488 55</div>
-                <div>Email: <a href="mailto:info@example.com" class="text-decoration-none text-white">info@example.com</a></div>
-              </div>
+            <p class="w-65 m-0 ps-6">A108 Adam Street New York, NY 535022</p>
             </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4 mb-4">
-          <div class="d-flex align-items-start justify-content-between">
-            <div>
-              <div class="d-flex align-items-start">
-                <i class="bi bi-clock-fill text-orange me-2" ></i>
-                <div>
-                  <div class="footer-heading"><h6>Opening Hours</h6></div>
-                  <div>
-                    <div>Mon-Sat: 11AM - 23PM</div>
-                    <div>Sunday: Closed</div>
-                  </div>
+            <div class="d-flex flex-column gap-1">
+            <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-telephone fs-2 text-orange"></i>
+                <h3 class="m-0">Contact</h3>
+            </div>
+            <div class="">
+                <p class="w-60 m-0 fw-bold ps-6">Phone: +1 5589 55488 55 Email: info@example.com</p>
+            </div>
+            
+            </div>
+            <div class="d-flex flex-column gap-1">
+            <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-clock fs-2 text-orange"></i>
+                <h3 class="m-0">Opening Hours</h3>
+            </div>
+            <div class="">
+                <p class="w-70 m-0 fw-bold ps-6">Mon-Sat: 11AM - 23PM Sunday: Closed</p>
+            </div>
+            </div>
+            <div class="d-flex gap-2 flex-column">
+                <h3 class="text-start text-capitalize">follow us</h3>
+                <div class="links d-flex gap-3">
+                    <a href="" class=""><i class="icons fs-6 text-box bi bi-twitter-x"></i></a>
+                    <a href="" class=""><i class="icons fs-6 text-box bi bi-facebook"></i></a>
+                    <a href="" class=""><i class="icons fs-6 text-box bi bi-instagram"></i></a>
+                    <a href="" class=""><i class="icons fs-6 text-box bi bi-linkedin"></i></a>
                 </div>
-              </div>
             </div>
-
-
-            <div class="text-end d-none d-md-block ">
-              <div class="footer-heading text-start"><h6>Follow Us</h6></div>
-              <div class="mt-2  d-flex gap-2">
-                <a class="social-circle" href="#" aria-label="Twitter"><i class="bi text-orange bi-x-lg"></i></a>
-                <a class="social-circle" href="#" aria-label="Facebook"><i class="bi text-orange  bi-facebook"></i></a>
-                <a class="social-circle" href="#" aria-label="Instagram"><i class="bi text-orange  bi-instagram"></i></a>
-                <a class="social-circle" href="#" aria-label="LinkedIn"><i class="bi text-orange  bi-linkedin"></i></a>
-              </div>
-            </div>
-
-          </div>
-
-
-          <div class="d-block d-md-none socials-mobile-center mt-3 text-start">
-
-            <div class="footer-heading">Follow Us</div>
-            <div class="mt-2  bg-danger">
-                <a class="social-circle text-decoration-none" href="#"><i class="bi bi-x-lg"></i></a>
-                <a class="social-circle text-decoration-none" href="#"><i class="bi bi-facebook"></i></a>
-                <a class="social-circle text-decoration-none" href="#"><i class="bi bi-instagram"></i></a>
-                <a class="social-circle text-decoration-none" href="#"><i class="bi bi-linkedin"></i></a>
-            </div>
-            </div>
-
         </div>
-      </div>
-
-      <hr class="footer-hr text-secondary-emphasis">
-
-      <div class="row align-items-center ">
-        <div class="col-md-6 text-center ms-15 ">
-          <div>
-            <p class="text-white">© Copyright Delicious All Rights Reserved</p>
-          </div>
-          <div>
-            <p class="text-white">Designed by <span class="text-orange">BootstrapMade</span>  </p>
-          </div>
-         
-      </div>
-    </div>
-  </footer>
+        <hr class="bg-white text-white">
+        <div class="lest-footer pb-5 pt-3 text-center">
+            <p>&copy; Copyright <span class="fw-bolder">Delicious</span> All Rights Reserved</p>
+            <span>Designed by <span class="text-orange">BootstrapMade</span> </span>
+        </div>
+    </footer>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>

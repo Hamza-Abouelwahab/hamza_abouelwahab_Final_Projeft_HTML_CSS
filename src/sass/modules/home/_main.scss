@@ -304,19 +304,9 @@
     }
 }
 }
-// ! booka a table
-.reservation{
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    
-    .form{
-        padding-top: 4vw !important;
-        form{
-            display: flex;
-            flex-direction: column;
-        }
-    }
-}
+// ! booka a table style in html
+
+
 // ! section gallery
 .section-gallery{
     // background-color: red;
@@ -353,6 +343,16 @@
             padding: 1vh 2vw;
         }
         
+    }
+}
+// ! footer
+footer{
+    .links{
+        a{
+            border: solid 1px #6f6f6f;
+            padding: 5px 10px;
+            border-radius: 50%;
+        }
     }
 }
 
@@ -420,6 +420,18 @@
             }
         }
     }
+    // ! booka a table
+        .reservation{
+            display: flex !important;
+            flex-direction: column !important;
+            .form{
+                padding-top: 4vw !important;
+                form{
+                    display: flex !important;
+                    flex-direction: column !important;
+                }
+            }
+}
 }
 @media  (max-width:480px){
         // ! section about
@@ -492,20 +504,17 @@
     }
     }
     // ! booka-table
-    .booka-table{
-        padding: 0 6vw 0 6vw !important;
-        .booka{
-            form{
-                .putat{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    input{
-                        width: 100;
-                    }
-                }
-            }
+    .reservation{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    
+    .form{
+        padding-top: 4vw !important;
+        form{
+            display: flex;
+            flex-direction: column;
         }
     }
 
+}
 }
