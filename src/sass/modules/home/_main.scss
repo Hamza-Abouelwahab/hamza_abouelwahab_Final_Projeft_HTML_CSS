@@ -305,24 +305,18 @@
 }
 }
 // ! booka a table
-        .booka{
-                display: flex;
-                gap: 1vw;
-                width: 100%;
-            .left{
-                img{
-                    width: 100%;
-                }
-            }
-            .right{
-            form{
-                input{
-                    // padding: 0.5vw 1vw 0.5vw 1vw;
-                }
+.reservation{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    
+    .form{
+        padding-top: 4vw !important;
+        form{
+            display: flex;
+            flex-direction: column;
         }
     }
-        }
-
+}
 // ! section gallery
 .section-gallery{
     // background-color: red;

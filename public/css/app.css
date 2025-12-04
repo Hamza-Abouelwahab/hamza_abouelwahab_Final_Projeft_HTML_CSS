@@ -18537,6 +18537,9 @@ nav a:hover {
   header .top-side {
     justify-content: end !important;
   }
+  header .top-side .info {
+    display: none !important;
+  }
   nav {
     position: fixed;
     top: 4vh;
@@ -18893,14 +18896,18 @@ nav a:hover {
   border-bottom: solid #ffb03b !important;
 }
 
-.booka {
+.reservation {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+}
+.reservation .form {
+  padding-top: 4vw !important;
+}
+.reservation .form form {
   display: flex;
-  gap: 1vw;
-  width: 100%;
+  flex-direction: column;
 }
-.booka .left img {
-  width: 100%;
-}
+
 .section-gallery .gallery-photos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
