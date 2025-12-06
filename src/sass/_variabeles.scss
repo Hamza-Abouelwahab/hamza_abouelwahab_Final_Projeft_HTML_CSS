@@ -32,6 +32,7 @@ $footer:#1e160d;
     $position-values: (
   0: 0,
   5:5%,
+  8:8%,
   10:10%,
   15:15%,
   20:20%,
@@ -53,6 +54,8 @@ $utilities: (
     property: width,
     class: w,
     values: (
+      5: 5%,
+      8:8%,
       25: 25%,
       30: 30%,
       35: 35%,
@@ -72,8 +75,3 @@ $utilities: (
     )
   )
 );
-
-
-
-
-

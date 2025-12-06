@@ -8594,6 +8594,10 @@ textarea.form-control-lg {
   top: 5% !important;
 }
 
+.top-8 {
+  top: 8% !important;
+}
+
 .top-10 {
   top: 10% !important;
 }
@@ -8656,6 +8660,10 @@ textarea.form-control-lg {
 
 .bottom-5 {
   bottom: 5% !important;
+}
+
+.bottom-8 {
+  bottom: 8% !important;
 }
 
 .bottom-10 {
@@ -8722,6 +8730,10 @@ textarea.form-control-lg {
   left: 5% !important;
 }
 
+.start-8 {
+  left: 8% !important;
+}
+
 .start-10 {
   left: 10% !important;
 }
@@ -8784,6 +8796,10 @@ textarea.form-control-lg {
 
 .end-5 {
   right: 5% !important;
+}
+
+.end-8 {
+  right: 8% !important;
 }
 
 .end-10 {
@@ -9044,6 +9060,14 @@ textarea.form-control-lg {
 
 .border-opacity-100 {
   --bs-border-opacity: 1;
+}
+
+.w-5 {
+  width: 5% !important;
+}
+
+.w-8 {
+  width: 8% !important;
 }
 
 .w-25 {
@@ -19113,6 +19137,17 @@ nav a:hover {
 .section-events .carousel-flex .carousel-caption .type span {
   font-weight: bolder;
   border-bottom: solid #ffb03b !important;
+}
+
+.section-chef .carousel-indicators {
+  position: absolute !important;
+  bottom: -40px !important;
+}
+.section-chef .carousel-indicators button {
+  background-color: #ffffff !important;
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
 }
 
 .section-gallery .gallery-photos {
